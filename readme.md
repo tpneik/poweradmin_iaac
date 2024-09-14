@@ -35,13 +35,29 @@ search vyzxqwws12fuzean3kaeuvsfcc.hx.internal.cloudapp.net
 
 ```
 Because _systemd-resolved_ will occupy port 53 by default. So, PowerDNS cannot use, cause that it cannot restart. You first stop _systemd-resolved_ and restart. Make sure that your database are available! 
-
+`
 ## Mysql
 
-> [!TIPS]
-> If change, change this file. These mysql is fvckin trap 
+> [!TIP]
+> Change config using this file
 
 ```  
-sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+/etc/mysql/mysql.conf.d/mysqld.cnf
+``
 
-```
+
+
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
