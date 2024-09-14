@@ -39,7 +39,7 @@ Because _systemd-resolved_ will occupy port 53 by default. So, PowerDNS cannot u
 ## Mysql
 
 > [!TIP]
-> Change config using this file
+> This mysql is fvckin trap, you better take a note to this point. The config for bind-address is the bellow !
 
 ```  
 /etc/mysql/mysql.conf.d/mysqld.cnf
